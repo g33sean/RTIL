@@ -1,0 +1,39 @@
+# configures the working direction of hydra.
+# If using relative paths, the working directory should be the root folder of ILO.
+
+Rtil:
+ image_size: 256
+ device: cuda
+ inv_method: 'rtil'
+ perc_m: [10,5,1]
+ ckpt: './pretrained/rtil_ilo.pt'
+ steps: [2000,1000,1000,1000,2000]
+ lr: [.2,.2,.2,.2,.2]
+ end_layer: 8
+ geocross: 0.01
+ lr_same_pace: False
+ project: True
+ batch_size: 1
+ save_on_ref: True
+ test_set: './demo'
+ save_folder: 'results/rtil/'
+
+Vanilla:
+ image_size: 256
+ device: cuda
+ inv_method: 'van'
+ perc_m: [10,5,1]
+ ckpt: './pretrained/vanilla_ilo.pt'
+ steps: [2000,1000,1000,1000,2000]
+ lr: [.1,.1,.1,.1,.1]
+ end_layer: 8
+ geocross: 0.01
+ lr_same_pace: False
+ project: True
+ batch_size: 1
+ save_on_ref: True
+ test_set: './demo'
+ save_folder: 'results/van/'
+
+ 
+
