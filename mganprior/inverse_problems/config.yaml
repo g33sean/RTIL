@@ -1,0 +1,32 @@
+
+Rtil:
+ image_size: 256
+ device: cuda
+ inv_method: 'rtil'
+ perc_m: [25,10,1]
+ ckpt: './pretrained/rtil_mgan.pt'
+ steps: 2500
+ lr: .05
+ layer_in: 4
+ z_num: [20]
+ batch_size: 1
+ save_on_ref: True
+ test_set: './demo'
+ save_folder: 'results/rtil/'
+
+Vanilla:
+ image_size: 256
+ device: cuda
+ inv_method: 'van'
+ perc_m: [25,10,1]
+ ckpt: './pretrained/vanilla_mgan.pt'
+ steps: 2500
+ lr: 1
+ layer_in: 4
+ z_num: [20]
+ batch_size: 1
+ save_on_ref: True
+ test_set: './demo'
+ save_folder: 'results/van/'
+ 
+
