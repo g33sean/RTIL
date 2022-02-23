@@ -68,7 +68,7 @@ train.py
 #### We follow the PGGAN PyTorch implementation of the following repository for RTIL training mGANprior: https://github.com/odegeasslbc/Progressive-GAN-pytorch
 #### We  use the offical ILO implementation: https://github.com/giannisdaras/ilo
 #### We follow the official mganprior implementation: https://github.com/genforce/mganprior
-#### We wholeheartedly thank the each author for open-sourcing this implementation.
+#### We thank each author for open-sourcing this implementation.
 
 
 
