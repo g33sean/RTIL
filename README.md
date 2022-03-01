@@ -11,13 +11,13 @@
 ### ILO
 ```
 cd ILO/inverse_problems/pretrained
-gdown --id 1xem0Yx_sqAQLT7nAOp1KzkU2I1IjJA-W
+gdown --id 1xem0Yx_sqAQLT7nAOp1KzkU2I1IjJA-W  (RTIL)
 gdown --id 1-sIeuxw1-Vgos8Yt6-TYpSUPSYNtIEFP
 ```
 ### mganprior
 ```
 cd mganprior/inverse_problems/pretrained
-gdown --id 1t3IcdeEU11EhoN-u7JijyhLtDaS77nTs
+gdown --id 1t3IcdeEU11EhoN-u7JijyhLtDaS77nTs  (RTIL)
 gdown --id 1U7-DHbtYzW0BgmaPKsKO7IH_YTHQjDDX
 ```
 # Inverse Problem Demo 
